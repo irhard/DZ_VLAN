@@ -16,7 +16,7 @@
 
  `S1#sh run | i domain-lookup`
 
-   ``no ip domain-lookup`
+   `no ip domain-lookup`
 
 **Задаем пароли и вешаем баннер**
 
@@ -26,17 +26,17 @@
 
 `S1(config)#enable secret class`
 
-`S1(config)#line console 0 `` 
+`S1(config)#line console 0 ` 
 
-`S1(config-line)#password cisco `` 
+`S1(config-line)#password cisco ` 
 
-`S1(config-line)#login  ``
+`S1(config-line)#login  `
 
-`S1(config-line)#exit  ``
+`S1(config-line)#exit  `
 
 `S1(config)#line vty 0 4`  
 
-`S1(config-line)#password cisco  ``
+`S1(config-line)#password cisco  `
 
 `S1(config-line)#login`  
 
