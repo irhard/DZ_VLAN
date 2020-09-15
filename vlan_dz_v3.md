@@ -20,7 +20,7 @@
 
 **Задаем пароли и вешаем баннер**
 
-`S1(config)#enabl` 
+````S1(config)#enabl` 
  
 `S1(config)#enable secre`
 
@@ -50,7 +50,7 @@
 
 `S1(config)#`  
 
-`S1(config)#banner motd $ Autorized Access Only! $`
+`S1(config)#banner motd $ Autorized Access Only! $````
 
 **Установка времени вручную**
 
