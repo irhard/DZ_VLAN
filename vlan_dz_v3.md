@@ -108,7 +108,7 @@ Sep 14 11:38:30.000: %SYS-6-CLOCKUPDATE: System clock has been updated from 13:0
 
 **Настройка Рабочих мест (PC-A; PC-B)**
 
-`VPCS> ip 192.168.3.3 255.255.255.0 192.168.3.1 ``   
+`VPCS> ip 192.168.3.3 255.255.255.0 192.168.3.1 `   
 
 `Checking for duplicate address...`
 
@@ -210,9 +210,10 @@ Sep 14 11:38:30.000: %SYS-6-CLOCKUPDATE: System clock has been updated from 13:0
 
 `S1#sh vlan brief`
 
+
 `VLAN Name                             Status    Ports`
 ---- -------------------------------- --------- -------------------------------
-`1    default                          active ``   
+`1    default                          active `  
 
 `3    Management                       active    Et0/2`
 
