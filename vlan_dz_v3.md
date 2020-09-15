@@ -68,7 +68,7 @@ Sep 14 11:38:30.000: %SYS-6-CLOCKUPDATE: System clock has been updated from 13:0
 
 `S2(config)#no ip domain-lookup`
 
-`S2#sh run | i domain-lookup `` 
+`S2#sh run | i domain-lookup `
 
    `no ip domain-lookup`
 
@@ -401,26 +401,40 @@ Sep 14 11:38:30.000: %SYS-6-CLOCKUPDATE: System clock has been updated from 13:0
 `VPCS> ping 192.168.3.1`
 
 `84 bytes from 192.168.3.1 icmp_seq=1 ttl=255 time=1.153 ms`
+
 `84 bytes from 192.168.3.1 icmp_seq=2 ttl=255 time=1.042 ms`
+
 `84 bytes from 192.168.3.1 icmp_seq=3 ttl=255 time=0.867 ms`
+
 `84 bytes from 192.168.3.1 icmp_seq=4 ttl=255 time=0.962 ms`
+
 `84 bytes from 192.168.3.1 icmp_seq=5 ttl=255 time=0.817 ms`
+
 
 `VPCS> ping 192.168.4.3`
 
 `84 bytes from 192.168.4.3 icmp_seq=1 ttl=63 time=4.806 ms`
+
 `84 bytes from 192.168.4.3 icmp_seq=2 ttl=63 time=2.564 ms`
+
 `84 bytes from 192.168.4.3 icmp_seq=3 ttl=63 time=12.130 ms`
+
 `84 bytes from 192.168.4.3 icmp_seq=4 ttl=63 time=2.501 ms`
+
 `84 bytes from 192.168.4.3 icmp_seq=5 ttl=63 time=1.367 ms`
 
 `VPCS> ping 192.168.3.12`
 
 `84 bytes from 192.168.3.12 icmp_seq=1 ttl=255 time=1.195 ms`
+
 `84 bytes from 192.168.3.12 icmp_seq=2 ttl=255 time=1.030 ms`
+
 `84 bytes from 192.168.3.12 icmp_seq=3 ttl=255 time=0.951 ms`
+
 `84 bytes from 192.168.3.12 icmp_seq=4 ttl=255 time=1.265 ms`
+
 `84 bytes from 192.168.3.12 icmp_seq=5 ttl=255 time=1.243 ms`
+
 
 
 **PC-B**
@@ -437,9 +451,14 @@ Sep 14 11:38:30.000: %SYS-6-CLOCKUPDATE: System clock has been updated from 13:0
 `VPCS> ping 192.168.3.3`
 
 `84 bytes from 192.168.3.3 icmp_seq=1 ttl=63 time=3.638 ms`
+
 `84 bytes from 192.168.3.3 icmp_seq=2 ttl=63 time=1.827 ms`
+
 `84 bytes from 192.168.3.3 icmp_seq=3 ttl=63 time=1.660 ms`
+
 `84 bytes from 192.168.3.3 icmp_seq=4 ttl=63 time=1.742 ms`
+
 `84 bytes from 192.168.3.3 icmp_seq=5 ttl=63 time=1.988 ms`
+
 
 
